@@ -132,11 +132,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .banner .left-container {
   width: 60%;
-  margin: 2rem 1.5rem;
+  margin: 6rem 1.5rem 2rem 1.5rem;
 }
 
 .banner .left-container .image-container {
@@ -149,6 +150,7 @@ header {
 
 .banner .right-container .data-container {
   margin-right: 4.5rem;
+  margin: 6rem 1.5rem 2rem 0;
 }
 
 .banner h1 {
@@ -285,7 +287,10 @@ header {
 
   .about .block .image-container {
     width: 100%;
+  }
 
+  .about .block .image-container img {
+    width: 100%;
   }
 
   .about .data-container {
