@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Colmar Academy</title>
+    <link rel="icon" type="image/x-icon" href="resources/images/favicon-2.ico">
     <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:300,400,600,800" rel="stylesheet">
@@ -14,14 +15,14 @@
     <header>
       <a href="#">
         <div class="desktop-logo">
-          <img src="resources/images/ic-logo.svg" alt="">
+          <img src="resources/images/ic-logo.svg" alt="Company logo">
           <span class="colmar">COLMAR</span>
           <span class="academy">ACADEMY</span>
         </div>
       </a>
 
       <nav class="desktop-nav">
-        <ul>
+        <ul role="presentation">
           <li><a href="#">On campus</a></li>
           <li><a href="#">Online</a></li>
           <li><a href="#">For companies</a></li>
@@ -29,22 +30,22 @@
         </ul>
       </nav>
 
-      <nav class="mobile-nav">
-        <img src="resources/images/ic-logo.svg" alt="">
-        <img src="resources/images/ic-on-campus.svg" alt="">
-        <img src="resources/images/ic-online.svg" alt="">
-        <img src="resources/images/ic-login.svg" alt="">
+      <nav class="mobile-nav" role="presentation">
+        <img src="resources/images/ic-logo.svg" alt="Company logo">
+        <img src="resources/images/ic-on-campus.svg" alt="On campus">
+        <img src="resources/images/ic-online.svg" alt="Online">
+        <img src="resources/images/ic-login.svg" alt="Login">
       </nav>
 
     </header>
 
     <!-- 2. Banner Section -->
 
-    <div class="banner">
+    <div class="banner" role="banner">
 
       <div class="left-container">
         <div class="image-container">
-          <img src="resources/images/banner.jpg" alt="">
+          <img src="resources/images/banner.jpg" alt="Students are studying">
         </div>
       </div>
 
@@ -53,7 +54,7 @@
           <h1>Learn something new every day</h1>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
           <a href="#">
-            <div class="button">
+            <div class="button" role="button">
               <span>Start here</span>
             </div>
           </a>
@@ -68,7 +69,7 @@
 
       <div class="desktop left-container"><!-- left-container -->
         <div class="image-container">
-          <img src="resources/images/information-main.jpg" alt="">
+          <img src="resources/images/information-main.jpg" alt="A man reading a book">
         </div>
         <h2>It doesn't hurt to keep practicing</h2>
         <p>"Curabitur vitae liberto in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
@@ -79,11 +80,11 @@
 
         <div class="top block"><!-- top -->
           <div class="desktop image-container">
-            <img src="resources/images/information-orientation.jpg" alt="">
+            <img src="resources/images/information-orientation.jpg" alt="People walking on a road">
           </div>
 
           <div class="mobile image-container">
-            <img src="resources/images/information-orientation-mobile.jpg" alt="">
+            <img src="resources/images/information-orientation-mobile.jpg" alt="People walking on a road">
           </div>
 
           <div class="data-container">
@@ -95,11 +96,11 @@
 
         <div class="middle block"><!-- middle -->
           <div class="desktop image-container">
-            <img src="resources/images/information-campus.jpg" alt="">
+            <img src="resources/images/information-campus.jpg" alt="Campus room">
           </div>
 
           <div class="mobile image-container">
-            <img src="resources/images/information-campus-mobile.jpg" alt="">
+            <img src="resources/images/information-campus-mobile.jpg" alt="Campus room">
           </div>
 
           <div class="data-container">
@@ -111,16 +112,16 @@
 
         <div class="bottom block"><!-- bottom -->
           <div class="desktop image-container">
-            <img src="resources/images/information-guest-lecture.jpg" alt="">
+            <img src="resources/images/information-guest-lecture.jpg" alt="Oliver Sack">
           </div>
 
           <div class="mobile image-container">
-            <img src="resources/images/information-guest-lecture-mobile.jpg" alt="">
+            <img src="resources/images/information-guest-lecture-mobile.jpg" alt="Olive Sack">
           </div>
 
           <div class="data-container">
-            <h3>Our campus</h3>
-            <p>Find which campus is close by you</p>
+            <h3>Special guest lecture</h3>
+            <p>Join a note with Oliver Sack about music in medical treatment</p>
             <a href="#">Read more</a>
           </div>
         </div><!-- bottom -->
@@ -250,7 +251,7 @@
     <footer>
       <span class="mobile">&copy2016 Colmar Academy. All rights reserved.</span>
 
-      <nav>
+      <nav role="presentation">
         <span><a href="#">Terms</a></span>
         <span><a href="#">Privacy</a></span>
       </nav>
